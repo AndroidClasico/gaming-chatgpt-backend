@@ -31,8 +31,8 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.model("User", userSchema);
 
 const user = new User({
-  username: "reyndrop",
-  password: "12345",
+  username: "",
+  password: "",
 });
 
 user.save((error) => {
